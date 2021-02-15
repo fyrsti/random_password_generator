@@ -1,4 +1,4 @@
-# random_password_generator
+# Finished!
 Common training project | Random password generator. Can generate passwords with some parameters, like: include numbers or not, include punctuation or not, etc.
 
 Easy Python script for common random password generator.
