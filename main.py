@@ -50,7 +50,6 @@ def construct_password(length: int, numbers: bool, punct: bool, register: bool) 
     for _ in range(length):
         while 1:
             if (n := chr(randomize_symbols(numbers, punct, register))) not in result:
-                print(chr(randomize_symbols(numbers, punct, register)))
                 result.append(n)
                 break
     return "".join(result)
